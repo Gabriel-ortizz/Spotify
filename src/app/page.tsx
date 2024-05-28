@@ -51,42 +51,42 @@ export default function Home() {
           </h1>
 
           <div className='grid grid-cols-3 gap-4 mt-10'>
-          <a href='#' className='bg-white/10 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/20 transition-colors'>
+          <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src={'/album.jpg'} width={104} height={104} alt={'capa do album do Kayblack'} />
               <strong>Contradições</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href='#' className='bg-white/10 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/20 transition-colors'>
+            <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src={'/album.jpg'} width={104} height={104} alt={'capa do album do Kayblack'} />
               <strong>Contradições</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href='#' className='bg-white/10 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/20 transition-colors'>
+            <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src={'/album.jpg'} width={104} height={104} alt={'capa do album do Kayblack'} />
               <strong>Contradições</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href='#' className='bg-white/10 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/20 transition-colors'>
+            <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src={'/album.jpg'} width={104} height={104} alt={'capa do album do Kayblack'} />
               <strong>Contradições</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href='#' className='bg-white/10 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/20 transition-colors'>
+            <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src={'/album.jpg'} width={104} height={104} alt={'capa do album do Kayblack'} />
               <strong>Contradições</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href='#' className='bg-white/10 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/20 transition-colors'>
+            <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src={'/album.jpg'} width={104} height={104} alt={'capa do album do Kayblack'} />
               <strong>Contradições</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
@@ -95,6 +95,38 @@ export default function Home() {
             </a>
 
 
+          </div>
+
+          <h2 className='font-semibold text-2xl mt-10'>
+            Feito para Gabriel Ortiz
+          </h2>
+
+          <div className='grid grid-cols-5 gap-4 mt-4'>
+            <a href='#' className='flex flex-col gap-2 bg-white/5 rounded p-3 hover:bg-white/10'>
+            <Image src={'/album.jpg'} className='w-full' width={104} height={104} alt={'capa do album do Kayblack'} />
+            <strong className='font-semibold'>Daily Mix 1</strong>
+            <span className='text-sm text-zinc-500'>KayBlack,Veigh,Vulgo FK,Nagali e mais</span>
+            </a>
+            <a href='#' className='flex flex-col gap-2 bg-white/5 rounded p-3 hover:bg-white/10'>
+            <Image src={'/album.jpg'} className='w-full' width={104} height={104} alt={'capa do album do Kayblack'} />
+            <strong className='font-semibold'>Daily Mix 1</strong>
+            <span  className='textsms text-zinc-500'>KayBlack,Veigh,Vulgo FK,Nagali e mais</span>
+            </a>
+            <a href='#' className='flex flex-col gap-2 bg-white/5 rounded p-3 hover:bg-white/10'>
+            <Image src={'/album.jpg'} className='w-full' width={104} height={104} alt={'capa do album do Kayblack'} />
+            <strong className='font-semibold'>Daily Mix 1</strong>
+            <span className='text-sm text-zinc-500'>KayBlack,Veigh,Vulgo FK,Nagali e mais</span>
+            </a>
+            <a href='#' className='flex flex-col gap-2 bg-white/5 rounded p-3 hover:bg-white/10'>
+            <Image src={'/album.jpg'} className='w-full' width={104} height={104} alt={'capa do album do Kayblack'} />
+            <strong className='font-semibold'>Daily Mix 1</strong>
+            <span className='text-sm text-zinc-500'>KayBlack,Veigh,Vulgo FK,Nagali e mais</span>
+            </a>
+            <a href='#' className='flex flex-col gap-2 bg-white/5 rounded p-3 hover:bg-white/10'>
+            <Image src={'/album.jpg'} className='w-full' width={104} height={104} alt={'capa do album do Kayblack'} />
+            <strong className='font-semibold'>Daily Mix 1</strong>
+            <span className='text-sm text-zinc-500'>KayBlack,Veigh,Vulgo FK,Nagali e mais</span>
+            </a>
           </div>
         </main>
       </div>
