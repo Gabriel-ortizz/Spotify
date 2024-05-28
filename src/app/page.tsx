@@ -131,8 +131,17 @@ export default function Home() {
         </main>
       </div>
       <div>
-        <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-          footer
+        <footer className="flex items-center justify-between bg-zinc-800 border-t border-zinc-700 p-6">
+          <div className='flex items-center gap-3 '>
+          <Image src={'/album.jpg'} className='rounded' width={60} height={60} alt={'capa do album do Kayblack'} />
+          <div className='flex flex-col gap-1'>
+            <strong className='font-normal'>Melhor Só</strong>
+            <span className='text-xs text-zinc-500'>KayBlack,Baco Exu do Blues,Marquinho no Beat</span>
+          </div>
+          </div>
+          <div></div>
+          <div></div>
+
         </footer>
       </div>
     </div>
