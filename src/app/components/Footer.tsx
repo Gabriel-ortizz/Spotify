@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Footer(){
 return(
-  <footer className="flex items-center justify-between bg-zinc-800 border-t border-zinc-700 px-6 py-4">
+  <div className="flex items-center justify-between bg-zinc-800 border-t border-zinc-700 px-6 py-4">
   <div className='flex items-center gap-3 '>
   <Image src={'/album.jpg'} className='rounded' width={60} height={60} alt={'capa do album do Kayblack'} />
   <div className='flex flex-col gap-1'>
@@ -45,6 +45,6 @@ return(
   </div>
  
   
-</footer>
+</div>
 )
 }
